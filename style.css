@@ -1,0 +1,47 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style header, hero, features, and call-to-action sections */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.hero {
+    background-image: url('DocScanner 21-Oct-2023 12-08 am (1).jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.features {
+    background-color: #fff;
+    padding: 50px;
+}
+
+.call-to-action {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
